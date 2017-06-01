@@ -1,3 +1,5 @@
-module.exports = function () {
+let compile = () => {
     console.log('compile');
 };
+
+module.exports = compile;

@@ -8,13 +8,22 @@ module.exports = {
         path: path.resolve('./dist'),
         filename: 'bundle.js'
     },
+    externals: {
+        Yoga: 'Yoga'
+    },
     module: {
-        loaders: [/*
+        rules: [
             {
                 test: /\.js$/,
-                loader: 'babel',
-                exclude: /node_modules/
-            }*/
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['es2015']
+                    }
+                }
+                
+            }
         ]
     },
     devtool: 'source-map'
