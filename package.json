@@ -1,0 +1,24 @@
+{
+  "name": "jskit",
+  "version": "1.0.0",
+  "description": "render engine by canvas",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jueshiduxiao/jskit.git"
+  },
+  "keywords": [
+    "canvas",
+    "yoga",
+    "csslayout"
+  ],
+  "author": "lx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jueshiduxiao/jskit/issues"
+  },
+  "homepage": "https://github.com/jueshiduxiao/jskit#readme"
+}
